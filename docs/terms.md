@@ -1,0 +1,221 @@
+# Terms of Service
+
+**Last Updated:** September 14, 2026
+
+These Terms of Service ("Terms") govern your access to and use of the Decoy — Live Break Assistant Chrome Extension and related services (collectively, the "Service"), operated by **Blue Luchador LLC** ("Company," "we," "us," or "our").
+
+By installing, accessing, or using the Service, you agree to be bound by these Terms.
+
+If you do not agree, do not use the Service.
+
+## 1. Ownership and Intellectual Property
+
+The Service and all associated technology, content, and functionality are the exclusive property of Blue Luchador LLC.
+
+This includes, without limitation:
+
+* Source code and object code
+* Backend systems and APIs
+* Capture, extraction, and classification workflows
+* Matching algorithms and scoring methodologies
+* Data normalization and enrichment processes
+* Catalog and checklist retrieval logic
+* Trade secrets and proprietary workflows
+* User interface and experience design
+* Documentation, branding, and trademarks
+
+All intellectual property rights are reserved. No rights are granted except those expressly provided in these Terms.
+
+## 2. Limited License
+
+Subject to these Terms, Company grants you a limited, non-exclusive, non-transferable, revocable license to use the Service for personal or internal business use only.
+
+This license does not include any right to sublicense, distribute, resell, lease, assign, or otherwise commercialize the Service or its outputs.
+
+## 3. Strict Prohibited Conduct
+
+You agree not to:
+
+* Reverse engineer, decompile, disassemble, or attempt to derive source code
+* Attempt to extract algorithms, models, prompts, or scoring systems
+* Access or call backend APIs outside the authorized Extension
+* Circumvent subscription, trial, or usage controls
+* Use automation, bots, scripts, or scraping tools
+* Benchmark the Service for competitive purposes
+* Use the Service to evaluate or replicate internal performance
+* Extract output systematically to build databases
+* Mirror or replicate the Service
+* Use output to train machine learning systems
+* Develop, enhance, or operate a competing product using the Service or its output
+* Conduct penetration testing without written authorization
+* Interfere with or disrupt Service infrastructure
+
+Any violation results in immediate termination of access.
+
+## 4. Trade Secrets and Confidential Methods
+
+The Service incorporates confidential and proprietary trade secrets.
+
+You agree not to:
+
+* Reconstruct proprietary workflows
+* Infer internal logic through systematic testing
+* Analyze output to reverse engineer scoring systems
+* Disclose proprietary insights obtained through use
+
+Unauthorized use may constitute trade secret misappropriation under applicable law.
+
+## 5. Output Restrictions
+
+Checklists, values, case hits, odds, chat answers, and other results provided by the Service are for informational purposes only.
+
+You may use output for personal evaluation during live breaks.
+
+You may not:
+
+* Redistribute output at scale
+* Create derivative databases
+* Publish bulk data
+* Resell or sublicense output
+* Use output for commercial aggregation
+
+Company reserves the right to restrict or terminate accounts engaging in misuse.
+
+## 6. Subscription, Trial, and Free Offerings
+
+Certain features require a trial or paid subscription.
+
+By starting a trial or subscribing, you agree to:
+
+* Provide accurate billing information when payment is required
+* Pay all fees for paid plans
+* Accept automatic renewal of paid plans unless canceled
+
+Trials and any free features are offered at our discretion. We may change, limit, or discontinue trials, complimentary usage, or other free offerings at any time. Starting a trial or using a free feature does not create a right to continued free access.
+
+Refunds are discretionary unless required by law. See our [Refund Policy](refund-policy).
+
+We may suspend accounts for:
+
+* Non-payment
+* Chargebacks
+* Abuse or excessive automated activity
+
+## 7. No Affiliation
+
+Decoy — Live Break Assistant and Blue Luchador LLC are not affiliated with or endorsed by Whatnot, Fanatics Live, TikTok, Loupe, or any other marketplace, livestream platform, grading company, or manufacturer.
+
+Third-party trademarks belong to their respective owners.
+
+Users are responsible for complying with the terms of any platform they use alongside the Service.
+
+## 8. Disclaimer of Warranties
+
+The Service is provided "as is" and "as available."
+
+Company disclaims all warranties, express or implied, including:
+
+* Accuracy of livestream capture or text extraction
+* Accuracy of break identification
+* Accuracy of checklists, values, case hits, or odds
+* Fitness for a particular purpose
+* Non-infringement
+* Continuous availability
+
+You assume all risk associated with use.
+
+### 8A. Capture, Identification, and Catalog Accuracy
+
+The Service uses screenshots of the visible livestream tab, automated text extraction, and algorithmic processing to identify live breaks and retrieve associated catalog data.
+
+Results are generated by automated systems and may be inaccurate, incomplete, or incorrect. The Service may misread on-screen text or misidentify a break, including but not limited to:
+
+- Incorrect sport or segment
+- Incorrect product, set, or release
+- Incorrect checklist, player, or card
+- Incorrect values, case hits, or odds
+- Stale or incomplete catalog data
+
+Users are solely responsible for independently verifying all break, checklist, and market information before making purchasing, bidding, pricing, listing, or investment decisions.
+
+Blue Luchador LLC shall not be liable for any losses, damages, pricing discrepancies, purchasing decisions, sales outcomes, missed bids, or other financial consequences resulting from:
+
+- Incorrect capture or text extraction
+- Incorrect break identification
+- Mismatched checklists or catalog data
+- Incomplete or outdated values, case hits, or odds
+- Reliance on automated chat answers
+
+Use of the Service is at your own risk.
+
+## 9. Limitation of Liability
+
+To the maximum extent permitted by law:
+
+Company shall not be liable for:
+
+* Financial decisions based on checklists, values, odds, or chat answers
+* Lost profits
+* Business interruption
+* Data loss
+* Indirect, incidental, special, or consequential damages
+
+Total liability shall not exceed the total fees paid by you in the twelve months preceding the claim.
+
+## 10. Indemnification
+
+You agree to indemnify and hold harmless Blue Luchador LLC from any claims, damages, liabilities, costs, or expenses arising from:
+
+* Your misuse of the Service
+* Violation of these Terms
+* Violation of third-party platform terms
+* Unauthorized data extraction
+
+## 11. Injunctive Relief
+
+You acknowledge that unauthorized use of the Service may cause irreparable harm.
+
+Company is entitled to seek injunctive or equitable relief without posting bond in addition to other remedies available at law.
+
+## 12. Arbitration and Class Action Waiver
+
+Any dispute arising out of or relating to these Terms shall be resolved by binding arbitration in the State of Colorado.
+
+You waive the right to participate in class actions, class arbitrations, or representative proceedings.
+
+## 13. Governing Law
+
+These Terms are governed by the laws of the State of Colorado, without regard to conflict of law principles.
+
+## 14. Termination
+
+Company may suspend or terminate access at any time for violation of these Terms.
+
+Upon termination, all licenses granted under these Terms immediately terminate.
+
+## 15. Assignment
+
+You may not assign these Terms without prior written consent.
+
+Company may assign its rights without restriction.
+
+## 16. Force Majeure
+
+Company shall not be liable for delays or failure to perform due to events beyond its reasonable control.
+
+## 17. Severability
+
+If any provision of these Terms is found unenforceable, the remaining provisions remain in full effect.
+
+## 18. Entire Agreement
+
+These Terms constitute the entire agreement between you and Blue Luchador LLC regarding the Service and supersede all prior agreements.
+
+## 19. Contact
+
+Blue Luchador LLC
+Support: [support@blueluchador.com](mailto:support@blueluchador.com)
+
+---
+
+[Privacy](privacy) \| Terms \| [Refunds](refund-policy) \| [Acceptable Use](acceptable-use) \| [Support](support)
