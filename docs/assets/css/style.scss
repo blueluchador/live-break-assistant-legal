@@ -1,13 +1,13 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-midnight";
 
 .brand {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
   width: 100%;
   text-decoration: none;
@@ -26,23 +26,28 @@
   min-width: 0;
 }
 
-.brand #project_title,
-.brand #project_tagline {
+.brand h1,
+.brand p {
   margin: 0;
 }
 
-.brand #project_title {
+.brand h1 {
   white-space: nowrap;
   font-size: 28px;
   line-height: 1.15;
 }
 
-.brand #project_tagline {
+.brand p {
   margin-top: 6px;
   font-size: 16px;
   white-space: nowrap;
+  opacity: 0.85;
 }
 
-#header_wrap .inner {
-  max-width: 920px;
+#title {
+  padding-bottom: 10px;
+}
+
+#title hr {
+  margin: 16px 0 24px;
 }
