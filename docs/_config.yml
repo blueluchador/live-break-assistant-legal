@@ -4,3 +4,8 @@ theme: jekyll-theme-slate
 show_downloads: false
 github:
   is_project_page: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
