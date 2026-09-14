@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand img {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  text-align: left;
+}
+
+.brand #project_title,
+.brand #project_tagline {
+  margin: 0;
+}
+
+.brand #project_tagline {
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 480px) {
+  .brand {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .brand-text {
+    text-align: center;
+  }
+}
