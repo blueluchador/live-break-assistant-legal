@@ -1,14 +1,14 @@
 # Privacy Policy
 
-**Last Updated:** September 14, 2026
+**Last Updated:** September 17, 2026
 
 ## 1. Overview
 
-This Privacy Policy describes how **Decoy — Live Break Assistant** ("we", "us", or "our") collects, uses, and protects information when you use the Decoy Chrome Extension ("Extension").
+This Privacy Policy describes how **Decoy — Live Break Assistant** ("we", "us", or "our") collects, uses, handles, stores, and shares information when you use the Decoy Chrome Extension ("Extension").
 
 > **Important:** Use of Decoy is subject to our **[Terms of Service](terms)**. By installing or using the Extension, you agree to those Terms.
 
-The Extension sits beside supported livestream auction sites and helps collectors follow live card breaks. It captures what is visible in the livestream tab, extracts on-screen auction text, and uses that context to retrieve checklists, values, case hits, odds, and chat answers.
+The Extension helps collectors follow live card breaks on supported livestream auction sites (currently Whatnot). While a live-break session is open, it reads visible on-screen listing and livestream text from that page and uses that context to retrieve checklists, values, case hits, odds, and chat answers.
 
 We collect only the data necessary to operate the Extension.
 
@@ -16,151 +16,127 @@ We collect only the data necessary to operate the Extension.
 
 **Limited Use Disclosure:** Use of information received from Google APIs will adhere to the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/policies), including the **Limited Use** requirements. We do not sell user data, use it for advertising, or use it to determine creditworthiness.
 
-## 2. Livestream Capture
+This policy discloses **data collection**, **data handling**, **data storage**, and **data sharing** below. Omission of those topics is not intended.
 
-The Extension does not scrape HTML from livestream platforms and does not run in the background on unrelated websites.
+## 2. Data Collection
 
-Capture occurs only on supported livestream auction hosts, and only after you open Decoy and start a live-break session.
+We collect the following categories of user data.
 
-Screenshots of the **visible tab** (the viewport you can see, including video, overlays, and on-screen text) may be taken:
+### 2.1 Account and subscription data
 
-* When you join or start a live-break session, and
-* Periodically while that session remains active, so Decoy can follow the break as on-screen information changes.
-
-You can stop capture by closing the Extension or leaving the live-break session.
-
-Captured screenshots:
-
-* Are transmitted securely to our backend service to extract break-related auction text, such as lineup, listings, and livestream details.
-* May also be processed locally in the Extension for text recognition.
-* Are processed in memory for extraction and are not permanently stored as image files.
-* Are not sold or used for marketing.
-* Are not used by Blue Luchador LLC to train AI models.
-
-Because capture includes the visible viewport, a screenshot may incidentally include other on-screen content (for example, a livestream chat overlay, username, or avatar). We use this content only to extract break-related auction information and to operate the Extension.
-
-We do not claim ownership of third-party platform content.
-
-## 3. Information We Collect
-
-### 3.1 Account and Subscription Data
-
-If you start a trial or subscribe to a paid plan, we may collect:
+If you start a trial or subscribe, we may collect:
 
 * Email address
 * Subscription or trial plan information
-* Usage remaining (live breaks and Expert Answers)
+* Remaining usage (live breaks and Expert Answers)
 * Subscription identifiers associated with our payment processor
 
-Payment details (such as credit card numbers) are processed by our payment provider and are not stored by us.
+Payment card numbers are collected by our payment provider, not stored by us.
 
-### 3.2 Extracted Break Information
+### 2.2 On-screen break text
 
-From a captured screenshot, we extract structured break data that may include:
+When you open Decoy and start a live-break session on a supported host (currently Whatnot), the Extension reads **visible text** on that live page (for example lineup, listings, and livestream details).
 
-* Livestream title or details
-* Lineup and listing text
-* Sport or hobby segment
-* Product, set, or release names
-* Related checklist, value, case-hit, and odds information
+That collection may occur:
 
-This information is used to identify the break, retrieve catalog data, and answer your questions.
+* When you join or start a live-break session, and
+* Periodically while the session remains active, so Decoy can follow the break as on-screen information changes
 
-### 3.3 Chat and Assistant Messages
+You can stop this collection by closing the Extension or leaving the live-break session. The Extension does not run this capture on unrelated websites.
 
-When you use Decoy chat, we collect the messages you send and the replies generated for you, along with the recent break context needed to answer (extracted listings and identified products).
+Visible page text may incidentally include other on-screen words (for example a chat overlay or username). We use it only to operate the live-break assistant.
 
-Chat history is kept in the Extension during the current browser session so you can continue the conversation. It is not stored as a permanent account transcript after the browser is closed.
+The current Extension does **not** take screenshots of the visible tab for this purpose.
 
-### 3.4 Usage and Operational Data
+### 2.3 Chat and assistant messages
 
-We collect limited operational data including:
+When you use Decoy chat, we collect the messages you send, the replies generated for you, and the recent break text needed to answer.
+
+### 2.4 Usage and operational data
+
+We collect:
 
 * Number of live breaks and Expert Answers used
 * Subscription or trial status
 * Request timestamps
 * Error and performance logs
 
-We host the Service on Microsoft Azure. Diagnostic telemetry generated by our hosting provider may include technical identifiers such as IP address for security and operational monitoring. Operational logs may include extracted break text or chat content needed to diagnose failures. We do not use this information for advertising, profiling, or cross-site tracking.
+Hosting diagnostics may include technical identifiers such as IP address.
 
-### 3.5 Local Extension Storage
+### 2.5 Data stored on your device
 
-The Extension may store on your device:
+The Extension may store locally:
 
 * A payment-provider account key used to restore your subscription
 * Theme and similar preferences
 * In-session live-break chat state (cleared when the browser is restarted)
 
-### 3.6 Information We Do Not Intentionally Collect
+### 2.6 Data we do not intentionally collect
 
 We do not intentionally collect:
 
 * Your full browsing history
 * Keystrokes
-* Private messages or chat content from other sites, except what is visible in a captured livestream viewport
-* The full contents of webpages beyond the visible tab used for a live-break session
+* Private messages from other sites, except visible text on the supported live page during a session
+* The full contents of webpages beyond the visible live-break page used for that session
 
-The Extension only processes content necessary to identify the live break and assist you during that session.
+## 3. Data Handling
 
-## 4. How We Use Information
+We handle collected data to:
 
-We use collected information to:
-
-* Extract on-screen auction text from user livestream sessions
-* Identify the live break and retrieve checklists, values, case hits, and odds
+* Identify the live break from on-screen listing and livestream text
+* Retrieve checklists, values, case hits, and odds
 * Answer your questions in chat
 * Enforce trial and subscription limits
 * Maintain system reliability
 * Provide customer support
 
-We do not sell personal data.
+We do not sell personal data. We do not use this data for advertising or to determine creditworthiness. We do not use it to train Blue Luchador LLC AI models.
 
-## 5. Third-Party Services
+We do not claim ownership of third-party platform content. Users must follow the terms of any site they use with the Extension.
 
-### 5.1 Payment Processing
+## 4. Data Storage
 
-Trial signup and subscription payments are processed by [ExtensionPay](https://extensionpay.com). We do not store full payment card details.
+* On-screen break text is processed to run the session. Chat and recent break context are kept in the Extension during the current browser session and are not stored as a permanent account transcript after the browser is closed.
+* Account, subscription, and usage records are stored on our backend (Microsoft Azure tables or equivalent) as long as needed to provide the Service or meet legal obligations.
+* Operational logs may be stored for reliability and security monitoring.
+* We do not permanently store screenshots of your tab, because the current Extension does not capture tab screenshots.
 
-### 5.2 CardSight
+## 5. Data Sharing
 
-To provide checklists and related catalog data, we send structured break and search details (such as sport, product or release name, and card queries) to CardSight and receive catalog data in response. No personal account or payment information is shared with CardSight.
+We share user data only as needed to operate the Service, with these parties:
 
-### 5.3 Cloud and AI Providers
+* **ExtensionPay** — trial signup, login, and subscription billing. Email and plan identifiers may be processed by ExtensionPay. We do not receive full payment card numbers.
+* **Microsoft Azure** — hosts our API, customer records, and operational logs. Data in transit to our API is sent over HTTPS.
+* **AI / cloud providers** — break text and chat messages may be sent to AI services we use to classify the break and generate answers.
+* **CardSight** — structured break and search details (such as sport, product or release name, and card queries) so we can return checklists and catalog data. We do not send your email or payment information to CardSight.
+* **Web-search providers** — when a question needs public web information, limited query text may be sent to those providers.
 
-We use cloud infrastructure and AI services to extract livestream text, classify the break, retrieve catalog results, and generate chat answers. When a question requires public web information, limited query text may be sent to web-search providers. These providers process data solely to provide functionality and are governed by their own privacy policies.
+These providers process data to provide their functionality and have their own privacy policies. We do not sell user data to third parties.
 
-## 6. Data Retention
+## 6. Data Security
 
-* Captured screenshots are processed in memory and are not permanently stored as images.
-* Extracted break context used for chat is kept for the active session.
-* Subscription and trial data is retained as long as necessary to provide service or comply with legal obligations.
-* Operational logs may be retained for reliability and security monitoring purposes.
-
-## 7. Platform Independence
-
-The Extension is not affiliated with, endorsed by, or sponsored by Whatnot, Fanatics Live, TikTok, Loupe, or any other marketplace, auction site, livestream platform, grading company, or card manufacturer.
-
-Users are responsible for complying with the terms of service of any platform used alongside the Extension.
-
-## 8. Data Security
-
-We use industry-standard safeguards including encrypted transmission and restricted backend access.
+We use industry-standard safeguards including encrypted transmission (HTTPS) and restricted backend access.
 
 No system can guarantee absolute security.
 
-## 9. Your Rights
+## 7. Your Rights
 
 You may request access, correction, or deletion of your personal data by contacting:
 
 **[support@blueluchador.com](mailto:support@blueluchador.com)**
 
-## 10. Changes to This Policy
+## 8. Platform Independence
+
+The Extension is not affiliated with, endorsed by, or sponsored by Whatnot or any other marketplace, livestream platform, grading company, or card manufacturer.
+
+## 9. Changes to This Policy
 
 We may update this Privacy Policy periodically. Continued use of the Extension after updates constitutes acceptance of the revised policy.
 
-## 11. Contact
+## 10. Contact
 
-Blue Luchador Support  
+Blue Luchador LLC  
 Email: **[support@blueluchador.com](mailto:support@blueluchador.com)**
 
 ---
