@@ -8,7 +8,7 @@ This Privacy Policy describes how **Decoy — Live Break Assistant** ("we", "us"
 
 > **Important:** Use of Decoy is subject to our **[Terms of Service](terms)**. By installing or using the Extension, you agree to those Terms.
 
-The Extension helps collectors follow live card breaks on supported livestream auction sites (currently Whatnot). While a live-break session is open, it reads visible on-screen listing and livestream text from that page and uses that context to retrieve checklists, values, case hits, odds, and chat answers.
+The Extension helps collectors follow live card breaks on supported livestream auction sites. While a live-break session is open, it reads visible on-screen listing and livestream text from that page and uses that context to retrieve checklists, values, case hits, odds, and chat answers.
 
 We collect only the data necessary to operate the Extension.
 
@@ -35,7 +35,7 @@ Payment card numbers are collected by our payment provider, not stored by us.
 
 ### 2.2 On-screen break text
 
-When you open Decoy and start a live-break session on a supported host (currently Whatnot), the Extension reads **visible text** on that live page (for example lineup, listings, and livestream details).
+When you open Decoy and start a live-break session on a supported livestream auction site, the Extension reads **visible text** on that live page (for example lineup, listings, and livestream details).
 
 That collection may occur:
 
@@ -128,7 +128,7 @@ You may request access, correction, or deletion of your personal data by contact
 
 ## 8. Platform Independence
 
-The Extension is not affiliated with, endorsed by, or sponsored by Whatnot or any other marketplace, livestream platform, grading company, or card manufacturer.
+The Extension is not affiliated with, endorsed by, or sponsored by any marketplace, livestream platform, grading company, or card manufacturer.
 
 ## 9. Changes to This Policy
 

@@ -103,7 +103,7 @@ We may suspend accounts for:
 
 ## 7. No Affiliation
 
-Decoy — Live Break Assistant and Blue Luchador LLC are not affiliated with or endorsed by Whatnot, Fanatics Live, TikTok, Loupe, or any other marketplace, livestream platform, grading company, or manufacturer.
+Decoy — Live Break Assistant and Blue Luchador LLC are not affiliated with or endorsed by any marketplace, livestream platform, grading company, or manufacturer.
 
 Third-party trademarks belong to their respective owners.
 
