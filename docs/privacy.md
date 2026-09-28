@@ -1,140 +1,98 @@
 # Privacy Policy
 
-**Last Updated:** September 17, 2026
-
-## 1. Overview
+**Last Updated:** September 28, 2026
 
 This Privacy Policy describes how **Decoy — Live Break Assistant** ("we", "us", or "our") collects, uses, handles, stores, and shares information when you use the Decoy Chrome Extension ("Extension").
 
 > **Important:** Use of Decoy is subject to our **[Terms of Service](terms)**. By installing or using the Extension, you agree to those Terms.
 
-The Extension helps collectors follow live card breaks on supported livestream auction sites. While a live-break session is open, it reads visible on-screen listing and livestream text from that page and uses that context to retrieve checklists, values, case hits, odds, and chat answers.
-
-We collect only the data necessary to operate the Extension.
-
-### 1.1 Chrome Web Store Compliance
+The Extension helps collectors follow live card breaks on supported livestream auction sites. While a live-break session is open, it reads visible listing and livestream text on that page and uses it to retrieve checklists, values, case hits, odds, and chat answers.
 
 **Limited Use Disclosure:** Use of information received from Google APIs will adhere to the [Chrome Web Store User Data Policy](https://developer.chrome.com/docs/webstore/program-policies/policies), including the **Limited Use** requirements. We do not sell user data, use it for advertising, or use it to determine creditworthiness.
 
-This policy discloses **data collection**, **data handling**, **data storage**, and **data sharing** below. Omission of those topics is not intended.
+## User data collection
 
-## 2. Data Collection
+We collect the following user data, and only what the Extension needs to run.
 
-We collect the following categories of user data.
+**Account and subscription data.** If you start a trial or subscribe, we collect your email address, subscription or trial plan, remaining usage (live breaks and Expert Answers), and the subscription identifiers from our payment processor. The payment processor collects your payment card number. We do not receive or collect the full card number.
 
-### 2.1 Account and subscription data
+**Live-break page text and page address.** When a live-break session is open on a supported livestream auction site, we collect the visible text on that page, such as the lineup, listings, and livestream details. We also collect the address of that tab, so the Extension can confirm the tab is a supported live-break page. Collection happens when the session starts and again while the session stays open. It does not run on other websites. Closing the Extension or leaving the session stops it. Visible text can include other words on that page, such as a chat overlay or a username.
 
-If you start a trial or subscribe, we may collect:
+**Chat and assistant messages.** When you use Decoy chat, we collect the messages you send, the replies generated for you, and the recent break text needed to answer.
 
-* Email address
-* Subscription or trial plan information
-* Remaining usage (live breaks and Expert Answers)
-* Subscription identifiers associated with our payment processor
+**Usage and operational data.** We collect the number of live breaks and Expert Answers used, subscription or trial status, request timestamps, and error and performance logs. Hosting diagnostics can include your IP address.
 
-Payment card numbers are collected by our payment provider, not stored by us.
+**Data stored on your device.** The Extension collects and keeps, on your device, a payment-processor account key used to restore your subscription, theme and similar preferences, and in-session live-break chat state.
 
-### 2.2 On-screen break text
+We do not collect your full browsing history, keystrokes, private messages from other sites (except text visible on the supported live page during a session), page contents from other sites, or a screenshot of the tab.
 
-When you open Decoy and start a live-break session on a supported livestream auction site, the Extension reads **visible text** on that live page (for example lineup, listings, and livestream details).
+## User data handling
 
-That collection may occur:
+We handle and use each category of collected data as follows.
 
-* When you join or start a live-break session, and
-* Periodically while the session remains active, so Decoy can follow the break as on-screen information changes
+**Account and subscription data.** We use your email, plan, and usage counts to start a trial, recognize a paid subscription, and enforce live-break and Expert Answer limits. Requests that carry this data are sent to our API over HTTPS.
 
-You can stop this collection by closing the Extension or leaving the live-break session. The Extension does not run this capture on unrelated websites.
+**Live-break page text and page address.** We use the visible text to identify the break. We use the page address to confirm the tab is a supported live-break page. The text is sent to our API over HTTPS. We use it to classify the break, retrieve checklists, values, case hits, and odds, and answer chat. We do not use it for advertising, and we do not use it to train Blue Luchador LLC models.
 
-Visible page text may incidentally include other on-screen words (for example a chat overlay or username). We use it only to operate the live-break assistant.
+**Chat and assistant messages.** We use your message and the recent break text to produce a reply. That content is sent to our API over HTTPS and then to the model that writes the answer.
 
-The current Extension does **not** take screenshots of the visible tab for this purpose.
+**Usage and operational data.** We use counts, timestamps, error logs, and IP address to run the service, enforce limits, and investigate failures.
 
-### 2.3 Chat and assistant messages
+**Data on your device.** The Extension reads the local account key to restore your subscription and reads local preferences to apply them. Chat state on the device is used only to continue the current browser session.
 
-When you use Decoy chat, we collect the messages you send, the replies generated for you, and the recent break text needed to answer.
+We do not sell personal data. We do not claim ownership of third-party platform content. You must follow the terms of any site you use with the Extension.
 
-### 2.4 Usage and operational data
+## User data storage
 
-We collect:
+We store each category of collected data as follows.
 
-* Number of live breaks and Expert Answers used
-* Subscription or trial status
-* Request timestamps
-* Error and performance logs
+**Account and subscription data.** Email, plan, usage counts, and subscription identifiers are stored in Microsoft Azure table storage for as long as your account is active, and for as long as we need them for taxes, billing disputes, or other legal duties. We do not store your full payment card number.
 
-Hosting diagnostics may include technical identifiers such as IP address.
+**Live-break page text and page address.** Page text is stored in the Extension for the current browser session so the assistant can follow the break. A copy is processed on our API to run that session. We do not keep a permanent transcript of page text on your account after the browser is closed. The page address is used to confirm the tab and is not stored as a browsing history.
 
-### 2.5 Data stored on your device
+**Chat and assistant messages.** Messages and recent break context are stored in the Extension until the browser restarts. They are not stored as a permanent account transcript after the browser is closed.
 
-The Extension may store locally:
+**Usage and operational data.** Usage totals are stored with your account record in Microsoft Azure. Error and performance logs, which can include IP address and the request that failed, are stored in Microsoft Azure for reliability and security monitoring.
 
-* A payment-provider account key used to restore your subscription
-* Theme and similar preferences
-* In-session live-break chat state (cleared when the browser is restarted)
+**Data on your device.** The account key and preferences stay in the browser until you remove them or uninstall the Extension. In-session chat state is stored until the browser restarts.
 
-### 2.6 Data we do not intentionally collect
+We do not store tab screenshots, because the Extension does not capture them.
 
-We do not intentionally collect:
+## User data sharing
 
-* Your full browsing history
-* Keystrokes
-* Private messages from other sites, except visible text on the supported live page during a session
-* The full contents of webpages beyond the visible live-break page used for that session
+We share user data only with the parties named below, and only to operate the Extension. We do not sell user data.
 
-## 3. Data Handling
+**ExtensionPay** receives your email and subscription identifiers to start a trial, log you in, and bill a subscription. ExtensionPay collects your payment card number. We do not receive the full card number.
 
-We handle collected data to:
+**Microsoft Azure** hosts our API, account records, and operational logs. Account data, page text, chat messages, usage records, and logs are processed on Azure over HTTPS.
 
-* Identify the live break from on-screen listing and livestream text
-* Retrieve checklists, values, case hits, and odds
-* Answer your questions in chat
-* Enforce trial and subscription limits
-* Maintain system reliability
-* Provide customer support
+**Azure OpenAI**, operated by Microsoft, receives live-break page text and chat messages so it can classify the break and write answers. We do not send your email or payment information to Azure OpenAI.
 
-We do not sell personal data. We do not use this data for advertising or to determine creditworthiness. We do not use it to train Blue Luchador LLC AI models.
+**CardSight** receives structured break and search details, such as sport, product or release name, and card queries, so we can return checklists and catalog data. We do not send your email, payment information, or the page address to CardSight.
 
-We do not claim ownership of third-party platform content. Users must follow the terms of any site they use with the Extension.
+**Tavily** receives a limited search query when a question needs public web information. We do not send your email or payment information to Tavily.
 
-## 4. Data Storage
+**Firecrawl** receives a limited search query when a question needs public web information. We do not send your email or payment information to Firecrawl.
 
-* On-screen break text is processed to run the session. Chat and recent break context are kept in the Extension during the current browser session and are not stored as a permanent account transcript after the browser is closed.
-* Account, subscription, and usage records are stored on our backend (Microsoft Azure tables or equivalent) as long as needed to provide the Service or meet legal obligations.
-* Operational logs may be stored for reliability and security monitoring.
-* We do not permanently store screenshots of your tab, because the current Extension does not capture tab screenshots.
+Each of these parties processes the data under its own privacy policy.
 
-## 5. Data Sharing
+## Data security
 
-We share user data only as needed to operate the Service, with these parties:
+We send user data to our API over HTTPS. Access to backend records is limited to people who operate the service. No system can guarantee absolute security.
 
-* **ExtensionPay** — trial signup, login, and subscription billing. Email and plan identifiers may be processed by ExtensionPay. We do not receive full payment card numbers.
-* **Microsoft Azure** — hosts our API, customer records, and operational logs. Data in transit to our API is sent over HTTPS.
-* **AI / cloud providers** — break text and chat messages may be sent to AI services we use to classify the break and generate answers.
-* **CardSight** — structured break and search details (such as sport, product or release name, and card queries) so we can return checklists and catalog data. We do not send your email or payment information to CardSight.
-* **Web-search providers** — when a question needs public web information, limited query text may be sent to those providers.
+## Your rights
 
-These providers process data to provide their functionality and have their own privacy policies. We do not sell user data to third parties.
+You may request access, correction, or deletion of your personal data by contacting **[support@blueluchador.com](mailto:support@blueluchador.com)**.
 
-## 6. Data Security
-
-We use industry-standard safeguards including encrypted transmission (HTTPS) and restricted backend access.
-
-No system can guarantee absolute security.
-
-## 7. Your Rights
-
-You may request access, correction, or deletion of your personal data by contacting:
-
-**[support@blueluchador.com](mailto:support@blueluchador.com)**
-
-## 8. Platform Independence
+## Platform independence
 
 The Extension is not affiliated with, endorsed by, or sponsored by any marketplace, livestream platform, grading company, or card manufacturer.
 
-## 9. Changes to This Policy
+## Changes to this policy
 
-We may update this Privacy Policy periodically. Continued use of the Extension after updates constitutes acceptance of the revised policy.
+We may update this Privacy Policy. Continued use of the Extension after an update means you accept the revised policy.
 
-## 10. Contact
+## Contact
 
 Blue Luchador LLC  
 Email: **[support@blueluchador.com](mailto:support@blueluchador.com)**
